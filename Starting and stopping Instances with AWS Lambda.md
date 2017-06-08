@@ -1,7 +1,7 @@
 Using Lambda to Start and Stop instances
 ========================================
 
-### Start Function 
+## Start Function 
 
 
 ```python
@@ -15,7 +15,7 @@ def lambda_handler(event, context):
     print 'Started your instances: ' + str(instances)
 ```
 
-### Stop Function
+## Stop Function
 
 ```python
 
@@ -29,7 +29,7 @@ def lambda_handler(event, context):
 
 ```
 
-### Custom Policy for Lambda Role 
+## Custom Policy for Lambda Role 
 This is a very basic policy please use with caution!
 
 ```json
@@ -57,8 +57,7 @@ This is a very basic policy please use with caution!
 }
 
 ```
-
-cloudwatch rule lambda contrant.
+cloudwatch rule lambda contrant example.
 
 ```json
 
