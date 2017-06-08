@@ -1,7 +1,7 @@
 Using Lambda to Start and Stop instances
 ========================================
 
-## Start Funcation 
+## Start Function 
 
 
 ```python
@@ -15,7 +15,7 @@ def lambda_handler(event, context):
     print 'Started your instances: ' + str(instances)
 ```
 
-## Stop Funcation
+## Stop Function
 
 ```python
 
